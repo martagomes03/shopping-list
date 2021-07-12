@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <button display_value="Delete Swipe (Shooping Item)">5658d329075130106728f7d08c1ed0e2</button>
+        <color_theme>primary</color_theme>
+        <description/>
+        <field_name/>
+        <icon/>
+        <label>Delete</label>
+        <location>leading_swipe</location>
+        <name>Delete (Shooping Item)</name>
+        <order/>
+        <parent>5258d329075130106728f7d08c1ed0df</parent>
+        <parent_table>sys_sg_master_item</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-12 10:26:31</sys_created_on>
+        <sys_id>d658d329075130106728f7d08c1ed0e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Delete (Shooping Item)</sys_name>
+        <sys_package display_value="Shopping List" source="x_656017_shopping">ed661b25075130106728f7d08c1ed002</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Shopping List">ed661b25075130106728f7d08c1ed002</sys_scope>
+        <sys_update_name>sys_sg_button_instance_d658d329075130106728f7d08c1ed0e3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-12 10:26:31</sys_updated_on>
+        <table/>
+    </sys_sg_button_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=d658d329075130106728f7d08c1ed0e3"/>
+</record_update>

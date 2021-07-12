@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="INSERT_OR_UPDATE">
+        <description/>
+        <execution_script/>
+        <name>Edit (Shooping Item)</name>
+        <query_condition table="x_656017_shopping_shooping_item">sys_idSTARTSWITH{{Shooping Item sys_id}}^EQ<item endquery="false" field="sys_id" goto="false" newquery="false" operator="STARTSWITH" or="false" value="{{Shooping Item sys_id}}"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </query_condition>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-12 10:26:31</sys_created_on>
+        <sys_id>da58d329075130106728f7d08c1ed0f8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Edit (Shooping Item)</sys_name>
+        <sys_package display_value="Shopping List" source="x_656017_shopping">ed661b25075130106728f7d08c1ed002</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Shopping List">ed661b25075130106728f7d08c1ed002</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_da58d329075130106728f7d08c1ed0f8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-12 10:26:31</sys_updated_on>
+        <table>x_656017_shopping_shooping_item</table>
+        <template>item={{Shooping Item item}}^purchased={{Shooping Item purchased}}^quantity={{Shooping Item quantity}}^store={{Shooping Item store}}^EQ</template>
+        <type>update</type>
+        <use_current_record_as_condition>true</use_current_record_as_condition>
+        <use_fields_for_ref_lookup>false</use_fields_for_ref_lookup>
+    </sys_sg_write_back_action_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=da58d329075130106728f7d08c1ed0f8"/>
+</record_update>
